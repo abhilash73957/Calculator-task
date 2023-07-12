@@ -1,0 +1,83 @@
+body{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    background-color: #ecf0f3;
+    font-family : sans-serif;
+    outline: none;
+}
+body{
+    background-image: url("https://wallpapers.com/images/hd/red-and-blue-calculators-yxm0myfzuym67431.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height : 100vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    width:280px;
+    background-color: #53595d;
+    padding : 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #53595d,
+                      5px 5px 12px black;
+    display : grid;
+    grid-template-columns: repeat(4,70px);
+
+}
+input{
+    grid-column: span 4;
+    height : 100px;
+    width : 230px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+    inset 5px 5px 12px rgba(0,0,0,.16);
+    border: none;
+    border-radius: 30px;
+    color : rgba(70,70,70);
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    height : 50px;
+    width: 58px;
+    background-color: #ecf0f3;
+    box-shadow: 2px 2px 8px #0a0b0b;
+    border: none;
+    border-radius: 20%;
+    margin: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+button:hover{
+    background-color: #3d3f41;
+    color: #ecf0f3;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+.equal{
+    width: 130px;
+    border-radius: 40px;
+    background-color: #a2d248;
+    color :#ecf0f3;
+    box-shadow: -5px -5px 5px #53595d,
+                 5px 5px 5px #53595d;
+}
+.equal:hover{
+    width: 100px;
+    justify-content: center;
+    background-color: #5a8f2f;
+    
+
+}
